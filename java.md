@@ -39,7 +39,7 @@ This is something you should know
 ### Servlet 
 Server side applet 
 
-A simple hello world Servlet 
+A simple hello world Servlet using doGet method
 ```java
 // First server-side program that simply says hello and displays its date/time
 
