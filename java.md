@@ -77,7 +77,7 @@ public void doGet (HttpServletRequest request,HttpServletResponse response) thro
 }
 ```
 
-calling a server servlet in HTML that's running on the local host (this machine). This is called a loop back 
+calling a server servlet in HTML that's running on the local host (this machine). This is called a loop back. 
 ```html 
 <form methods="get" action="http://localhost:8080/ServletToProcessEmail/TheServlet" >
 ```
