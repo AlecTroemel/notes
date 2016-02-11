@@ -7,6 +7,8 @@ public Abstract class Shape {
     abstract void toString() {
         
     }
+    
+    abstract void draw();
 }
 
 public class Circle extends Shape {
