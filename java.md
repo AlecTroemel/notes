@@ -61,4 +61,6 @@ public class MyFirstServletNow extends HttpServlet {
 }
 
 ```
+![request response](request_response.png)
+
 
