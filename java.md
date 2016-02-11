@@ -44,7 +44,7 @@ A simple hello world Servlet
 // First server-side program that simply says hello and displays its date/time
 
 import java.io.*;
-import javax.servlet.*;
+import javax.servlet.*; // notive the x in javax
 import javax.servlet.http.*;
 
 public class MyFirstServletNow extends HttpServlet {
