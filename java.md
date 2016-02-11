@@ -64,7 +64,7 @@ public class MyFirstServletNow extends HttpServlet {
 
 ```
 
-using request method
+using request method to look for form parameters 
 ```java
 
 public void doGet (HttpServletRequest request,HttpServletResponse response) throws ServletException, IOException { 
