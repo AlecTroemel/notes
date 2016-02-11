@@ -77,7 +77,7 @@ public void doGet (HttpServletRequest request,HttpServletResponse response) thro
 }
 ```
 
-calling a server servlet in HTML thats running on the local host (this machine)
+calling a server servlet in HTML that's running on the local host (this machine). This is called a loopback 
 ```html 
 <form methods="get" action 
 
