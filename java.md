@@ -33,8 +33,10 @@ public class Square extends Shape {
 * ME: Mobile Edition 
 
 This is something you should know 
-
 ![Know this](overview-multitieredapps.gif)
+
+Relationship between server and client 
+![request response](request_response.png)
 
 ### Servlet 
 Server side applet 
@@ -61,8 +63,4 @@ public class MyFirstServletNow extends HttpServlet {
 }
 
 ```
-
-Relationship between server and client 
-![request response](request_response.png)
-
 
