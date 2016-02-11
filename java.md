@@ -28,4 +28,5 @@ public class Square extends Shape {
 ### Java EE 
 * EE: Enterprise Edition 
 * SE: Standard Edition 
+* ME: Mobile Edition 
 
