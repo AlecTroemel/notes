@@ -34,3 +34,7 @@ public class Square extends Shape {
 This is something you should know 
 
 ![Know this](overview-multitieredapps.gif)
+
+### Servlet 
+Server side applet 
+
