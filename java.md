@@ -61,6 +61,7 @@ public class MyFirstServletNow extends HttpServlet {
 }
 
 ```
+
 Relationship between server and client 
 ![request response](request_response.png)
 
