@@ -3,5 +3,5 @@
 
 
 ### Unobtrusive code 
-Separating Javascript functionality from html content  
+Separating JavaScript functionality from html content  
 
