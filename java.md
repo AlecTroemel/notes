@@ -29,4 +29,7 @@ public class Square extends Shape {
 * EE: Enterprise Edition 
 * SE: Standard Edition 
 * ME: Mobile Edition 
+
+This is something you should know 
+
 ![Know this](overview-multitieredapps.gif)
