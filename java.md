@@ -10,14 +10,14 @@ public Abstract class Shape {
 public class Circle extends Shape {
     @Override 
     public void draw() {
-        // draw the circle
+        // ... draw the circle
     }
 }
 
 public class Square extends Shape {
     @Override 
     public void draw() {
-        // draw the square
+        // ... draw the square
     }
 }
 ```
