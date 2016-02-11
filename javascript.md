@@ -11,14 +11,13 @@ Separating JavaScript functionality from html content
 </a>
 
 <script>
-var v1 = document.getElementById("image1");
-v1.onmouseover = function() {
-    v1.src = "images/button.14.on.gif";
-};
-
-v1.onmouseout = function() {
-    v1.src = "images/button.14.gif";
-};
-
+    var v1 = document.getElementById("image1");
+    v1.onmouseover = function() {
+        v1.src = "images/button.14.on.gif";
+    };
+    
+    v1.onmouseout = function() {
+        v1.src = "images/button.14.gif";
+    };
 </script> 
 ```
