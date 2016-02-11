@@ -67,6 +67,14 @@ public class MyFirstServletNow extends HttpServlet {
 using request method
 ```java
 
+public void doGet (HttpServletRequest request,HttpServletResponse response) throws ServletException, IOException { 
+    response.setContentType("text/html"); // sending HTML 
+    PrintWriter out = response.getWriter();
+    String first = request.getParameter("firstName");
+    String last = request.getParameter("lastName");
+
+    ...
+}
 ```
 
 
