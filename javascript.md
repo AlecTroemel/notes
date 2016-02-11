@@ -2,7 +2,7 @@
 
 
 
-### Unobtrusive code 
+### Unobtrusive Code: 
 Separating JavaScript functionality from html content  
 
 ```html
