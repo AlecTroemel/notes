@@ -64,3 +64,9 @@ public class MyFirstServletNow extends HttpServlet {
 
 ```
 
+using request method
+```java
+
+```
+
+
