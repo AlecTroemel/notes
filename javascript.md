@@ -21,3 +21,5 @@ Separating JavaScript functionality from html content
     };
 </script> 
 ```
+
+### Polymorphism 
