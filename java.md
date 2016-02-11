@@ -77,4 +77,9 @@ public void doGet (HttpServletRequest request,HttpServletResponse response) thro
 }
 ```
 
+calling a server servlet in HTML thats running on the local host (this machine)
+```html 
+<form methods="get" action 
+
+
 
