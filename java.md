@@ -82,5 +82,5 @@ calling a server Servlet in HTML that's running on the local host (this machine)
 <form methods="get" action="http://localhost:8080/ServletToProcessEmail/TheServlet" >
 ```
 
-The server must be RAN so that the browser knows where to go
+The server must be RAN so that the browser knows where to go... it needs to exist
 
