@@ -49,16 +49,15 @@ import javax.servlet.http.*;
 
 public class MyFirstServletNow extends HttpServlet {
 
-   public void doGet (HttpServletRequest request,HttpServletResponse response) 
-                      throws ServletException, IOException { 
-      response.setContentType("text/html"); // sending HTML 
-      PrintWriter out = response.getWriter();
-      out.println("<html>"); 
-      out.println("<head><title>First Servlet</title></head>"); 
-      out.println("<body>"); 
-		out.println("<h1>Welcome to our store! Our date/time is " + new java.util.Date() + "</h1>");
-      out.println("</body></html>"); 
-   } 
+    public void doGet (HttpServletRequest request,HttpServletResponse response) throws ServletException, IOException { 
+        response.setContentType("text/html"); // sending HTML 
+        PrintWriter out = response.getWriter();
+        out.println("<html>"); 
+        out.println("<head><title>First Servlet</title></head>"); 
+        out.println("<body>"); 
+        out.println("<h1>Welcome to our store! Our date/time is " + new java.util.Date() + "</h1>");
+        out.println("</body></html>"); 
+    } 
 }
 
 ```
