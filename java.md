@@ -4,10 +4,6 @@ Abstract classes and methods are inherited and implemented in children classes. 
 
 ```Java
 public Abstract class Shape {
-    abstract void toString() {
-        
-    }
-    
     abstract void draw();
 }
 
