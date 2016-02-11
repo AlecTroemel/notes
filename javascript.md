@@ -3,7 +3,7 @@
 
 
 ### Unobtrusive Code 
-Separating JavaScript functionality from html content  
+Separating JavaScript functionality from HTML content  
 
 ```html
 <a href="http://www.ilstu.edu/">
