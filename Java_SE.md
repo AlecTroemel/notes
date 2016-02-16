@@ -20,3 +20,5 @@ MVC stands for Model View Controller and is a design pattern that separates the 
 * controller: accepts input and turns it into commands for the model or view
 
 This is a great way to develop because different teams can focus on a specific aspect of the pattern without worrying about the others. 
+### Managed Bean 
+basically a class with some well defined properties
