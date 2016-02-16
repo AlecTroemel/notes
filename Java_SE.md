@@ -18,4 +18,5 @@ stands for Model View Controller and is a design pattern that separates the func
 * Model: the behavior and actions of the application 
 * View: the user interface side, what the user interacts with 
 * controller: accepts input and turns it into commands for the model or view
-* 
+
+
