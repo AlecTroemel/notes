@@ -84,20 +84,5 @@ calling a server Servlet in HTML that's running on the local host (this machine)
 
 The server must be RAN so that the browser knows where to go... it needs to exist
 
-###Namespace
-allows you to enter a specific context of a code package or module to remove ambiguity/ having multiple namespace's with the same methods.
-
-this is how it is done in xhtml
-```xml
-    xmlns:h="http://java.sun.com/jsf/html"
-    <h:form></h:form>
-```
-### EL (Expression langauge)
-used to reference object properties in the back end 
-
-```xml
-#{profileController.theModel.clientName}
-```
-
 
 
