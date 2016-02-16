@@ -14,5 +14,5 @@ used to reference object properties in the back end
 ```
 
 ### MVC
-stands for Model View Controller 
+stands for Model View Controller and is a design pattern that separates the functionality and user interface 
 Model: the behavior and actions of the application 
