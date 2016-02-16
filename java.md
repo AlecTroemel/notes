@@ -93,7 +93,7 @@ this is how it is done in xhtml
     <h:form></h:form>
 ```
 ### EL (Expression langauge)
-used to reference object properties 
+used to reference object properties in the back end 
 
 ```xml
 #{profileController.theModel.clientName}
