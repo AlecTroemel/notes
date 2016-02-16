@@ -21,4 +21,5 @@ MVC stands for Model View Controller and is a design pattern that separates the 
 
 This is a great way to develop because different teams can focus on a specific aspect of the pattern without worrying about the others. 
 ### Managed Bean 
-Basically a class with some well defined properties.
+A bean is basically a class with some well defined properties.
+a managed bean is a bean handles by the java SS framework. 
