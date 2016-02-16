@@ -15,3 +15,4 @@ used to reference object properties in the back end
 
 ### MVC
 stands for Model View Controller 
+Model: the behavior and actions of the application 
