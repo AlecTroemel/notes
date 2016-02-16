@@ -19,4 +19,4 @@ stands for Model View Controller and is a design pattern that separates the func
 * View: the user interface side, what the user interacts with 
 * controller: accepts input and turns it into commands for the model or view
 
-
+this is a great way to develop because different teams can focus on a specific aspect of the pattern without worrying about the others. 
