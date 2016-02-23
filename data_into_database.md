@@ -1,4 +1,4 @@
-#Putting data into a Database
+# Putting data into a Database
 ### DOA
 Data Access Object design pattern. When you do have a DAO in your application,you up something that gives the interface to that data access component. You don't tell the exact implementation. DOW allows separation between interface and implementation.
 
