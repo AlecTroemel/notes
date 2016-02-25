@@ -11,14 +11,14 @@ Prompt
     var name = prompt("Enter name", "John Deer");
 ```
     
-for loop 
+For loop 
 ```javascript
 for (var i = 1; i < numberOfScores; i++) {
     ...
 }
 ```
 
-functions 
+Functions 
 ```javascript
 // basic function, select random color
 function randomColor() {
