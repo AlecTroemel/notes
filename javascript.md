@@ -5,6 +5,8 @@ alert
 
 for loop 
 
+function 
+
 
 
 ### Unobtrusive Code 
