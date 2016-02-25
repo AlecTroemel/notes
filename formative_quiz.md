@@ -105,7 +105,6 @@ function isDigit(num) {
         Enter serial #: <INPUT TYPE="text" NAME="number" SIZE="20"> <input type="submit"> 
     </form>
 </body>
-
 </html>
 ```
 
