@@ -41,18 +41,18 @@ __d) Automobile__
 
 <!DOCTYPE html>
 <html>
-<head>
-<link rel="stylesheet" type="text/css" href="./css/quiz.css">
-</head>
-
-<body>
-<h1>I am formatted with a linked style sheet</h1>
-<h1>I am formatted with a linked style sheet also</h1>
-<p>Me too!</p>
-<p>Me three!</p>
-<h1 class="important">But I have class!</h1>
-<a href="http://cnn.com">CNN News</a>
-</body>
+    <head>
+        <link rel="stylesheet" type="text/css" href="./css/quiz.css">
+    </head>
+    
+    <body>
+        <h1>I am formatted with a linked style sheet</h1>
+        <h1>I am formatted with a linked style sheet also</h1>
+        <p>Me too!</p>
+        <p>Me three!</p>
+        <h1 class="important">But I have class!</h1>
+        <a href="http://cnn.com">CNN News</a>
+    </body>
 
 </html>
 ```
