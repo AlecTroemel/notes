@@ -5,7 +5,9 @@ alert
 
 for loop 
 ```javascript
-
+for (var i = 1; i < numberOfScores; i++) {
+    ...
+}
 ```
 
 functions 
