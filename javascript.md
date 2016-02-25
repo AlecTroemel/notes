@@ -166,9 +166,87 @@ function myFunc() {
 ```
 
 ```javascript 
-
+function computeScores() {
+    // get info from user 
+    var numberOfScores = prompt("Enter the # of scores", "3");
+    var scores = new Array();
+    for (var i = 0; i < numberOfScores; i++) {
+        scores.push(prompt("Enter score #" + (i+1), " "));
+    }
+    
+    // calculate the values 
+    var highest, lowest, average;                
+    highest = lowest = average = scores[0];             
+    for (var i = 1; i < numberOfScores; i++) {
+        // update highest score 
+        if (highest < scores[i]) {
+            highest = scores[i];   
+        }
+           
+        // update lowest score 
+        if (lowest > scores[i]) {
+            lowest = scores[i];   
+        }   
+            
+        // add to average 
+        average = Number(average) + Number(scores[i]);
+    }            
+        
+    // finish computing average 
+    average = average / numberOfScores;
+    
+    // calculate scores higher than average 
+    var higherScores = new Array();
+    for (var i = 0; i < numberOfScores; i++) {
+        if (scores[i] > average) {
+            higherScores.push(scores[i]);
+        }
+    }
+    
+    //Create results String
+    var results = "Alec Part 2 Output \n";
+    results += "Lowest = " + lowest + "\n";
+    results += "Highest = " + highest + "\n";   
+    results += "Average = " + average + "\n";     
+    results += "Scores > Average: \n " + higherScores.toString() + "\n";   
+        
+    // alert the results 
+    alert(results); 
+}
 ```
 
+```javascript 
+function computeHours() {
+    // get info from user 
+    var name = prompt("Enter name", "John Deer");
+    var SSN = prompt("Enter SSN (its safe...truuust me)", "0123456789");
+    var rate = prompt("Enter rate of pay", "10");
+    var totalHours = prompt("Enter hours worked", "40");
+    
+    // compute hours 
+    var overtime = 0;
+    var normalHours = 0;
+    if (totalHours > 40) {
+        overtime = totalHours - 40;
+        normalHours = 40;
+    }
+    else {
+        normalHours = totalHours;
+    }
+       
+    // calculate pay
+    var pay = (normalHours * rate) + (overtime * rate * 1.5);
+    
+    // create results string
+    var results = "Alec Part 3 Output \n";
+    results += "Name: " + name + "\n";
+    results += "SSN: " + SSN + "\n";
+    results += "Pay: " + pay + "\n";
+    
+    // alert the results 
+    alert(results); 
+}
+```
 ```javascript 
 function validateEmail(emailString) { 
     
