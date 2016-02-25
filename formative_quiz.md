@@ -53,7 +53,6 @@ __d) Automobile__
         <h1 class="important">But I have class!</h1>
         <a href="http://cnn.com">CNN News</a>
     </body>
-
 </html>
 ```
 JavaScript:
