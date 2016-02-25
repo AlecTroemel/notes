@@ -1,6 +1,9 @@
 # JavaScript 
 
 ### Basics
+alert
+
+for loop 
 
 
 
