@@ -163,10 +163,11 @@ public void printAddressWithCollegeAve(Address addrs[]) {
 ### JUnit:
 **7.** The absolute value |a| of a number a is the numerical value of a without regard to its sign (see formula below). So, for example, the absolute value of 3 is 3, and the absolute value of -3 is also 3 (Wikipedia).
  
-|a| = \begin{cases} a, & \mbox{if }  a \ge 0  \\ -a,  & \mbox{if } a < 0. \end{cases} 
+$$|a| = \begin{cases} a, & \mbox{if }  a \ge 0  \\ -a,  & \mbox{if } a < 0. \end{cases} $$
 
 The Math class in Java has a static method abs(int i) that implements the above. Write a JUnit test class (just the test methods will do) to test if the abs(int i) method correctly implements the specs.
 
+```java
 @Test
 public void TestGTZero() {
     assertEquals(Math.abs(3),3);  
@@ -179,7 +180,7 @@ public void TestEQZero() {
 public void TestLTZero() {
     assertEquals(Math.abs(-3),3);  
 }
-
+```
 8. [6 pts] In this question, you are to partially develop a WebApp that performs arithmetic computation (i.e., does +, -, *, and / operations). Assume that a CalculatorBean has already been developed and it supports the above 4 operations. Also, the controller class is given with all the necessary pieces as well. Your job is to write the view (index.xhtml) of the WebApp, which should resemble the screenshot given below. 
 
 Note: Much like how properties from a model/controller can be mapped to elements found in a view (e.g., number 1 is mapped to arg1), a method in a model/controller can also be mapped to an action found in a view. Thus, when an operation such as Add is clicked, a corresponding method can be called to handle the event.
