@@ -161,8 +161,7 @@ public void printAddressWithCollegeAve(Address addrs[]) {
 }
 ```
 ### JUnit:
-
-[6 pts] 7. The absolute value |a| of a number a is the numerical value of a without regard to its sign (see formula below). So, for example, the absolute value of 3 is 3, and the absolute value of -3 is also 3 (Wikipedia).
+**7.** The absolute value |a| of a number a is the numerical value of a without regard to its sign (see formula below). So, for example, the absolute value of 3 is 3, and the absolute value of -3 is also 3 (Wikipedia).
  
 |a| = \begin{cases} a, & \mbox{if }  a \ge 0  \\ -a,  & \mbox{if } a < 0. \end{cases} 
 
