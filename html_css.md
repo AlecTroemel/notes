@@ -24,7 +24,7 @@
 
 ##### text input 
 ```html
-
+<input type="text" name="catalog" />
 ```
 
 ##### text input 
