@@ -128,7 +128,7 @@ Explain the differences among the following function calls with the onClick even
 ###Java:
 
 **6.** Given the following Address class, complete the method below to tell if a given address contains "College Ave" in its street name?
-
+```java
 public class Address {
   
    private String street;
@@ -156,7 +156,7 @@ public class Address {
          if (addrs[i].getStreet().indexOf("College Avenue") != -1)
              System.out.println(addrs[i]);
     }
-
+```
 JUnit:
 
 [6 pts] 7. The absolute value |a| of a number a is the numerical value of a without regard to its sign (see formula below). So, for example, the absolute value of 3 is 3, and the absolute value of -3 is also 3 (Wikipedia).
