@@ -10,6 +10,15 @@ functions
 ```javascript
 
 // onSubmit function 
+// basic function, select random color
+function randomColor(){
+    var allowed = "0369cf".split( '' ), s = "#";
+    while ( s.length < 4 ) {
+       s += allowed.splice( Math.floor( ( Math.random() * allowed.length ) ), 1 );
+    }
+    return s;
+}
+
 theForm.onsubmit = function() {
 
 }
