@@ -1,5 +1,7 @@
 # JavaScript 
 
+### Basics
+
 ### Unobtrusive Code 
 Separating JavaScript functionality from HTML content  
 
