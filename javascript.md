@@ -43,3 +43,12 @@ for (i = 2; i < theForm.elements.length - 1; i++) {
 }
 ```
 
+working with text input 
+```javascript
+// check text input has input 
+for (i = 2; i < theForm.elements.length - 1; i++) {
+    if (theForm.elements[i].value != "") {
+        return true;
+    }
+}
+```
