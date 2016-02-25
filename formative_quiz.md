@@ -141,10 +141,10 @@ public class Address {
     }
     
     public Address (String street, String city, String state, String zip) {
-    this.street = street;
-    this.city = city;
-    this.state = state;
-    this.zip = zip;
+        this.street = street;
+        this.city = city;
+        this.state = state;
+        this.zip = zip;
     }
  
    // gets and sets methods for each of the fields here
