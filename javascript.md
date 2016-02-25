@@ -9,7 +9,6 @@ for loop
 ```
 
 functions 
-
 ```javascript
 // basic function, select random color
 function randomColor() {
