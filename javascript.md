@@ -21,7 +21,8 @@ Separating JavaScript functionality from HTML content
 ```
 
 ### Working with forms 
-// get the form object from ID
+get the form object from ID
 ```javascript
 var theForm = document.getElementById("theForm");
 ```
+
