@@ -26,14 +26,13 @@ get the form object from ID
 var theForm = document.getElementById("theForm");
 ```
 
-Work with radio buttons
+Working with radio buttons
 ```javascript
 // When the second radio button is checked, the first text field is to be set in focus.
 theForm.searchPref[0].onclick=function(){
     theForm.air1.blur();
 };   
 ```
-
 
 ```javascript
 // When any of the three text fields is in focus, the second radio button is to be checked.	
