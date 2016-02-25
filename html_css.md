@@ -1,12 +1,16 @@
 # HTML
 
-### Head elements 
+### Basic Elements 
 ```html
     <head>
         <link rel="stylesheet" type="text/css" href="./Semantic/semantic.min.css">
         <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
         <title>Alec Troemel: A Guy</title>
     </head>
+```
+
+```html
+<img src="images/4.1.PNG"/>
 ```
 
 ### Forms
@@ -67,9 +71,22 @@
 <input type="submit">
 ```
 
-                </fieldset>
-                <input type="reset">
-                <input type="submit">
+### Tables 
+```html
+<table border="1">
+    <tr>
+        <th>Number</th>
+        <th colspan="2">Things That Are Cool</th>
+    </tr>
+    <tr>
+        <td rowspan="2">1</td>
+        <td>C$SH Money</td>
+        <td>Internet memes</td>
+    </tr>
+</table>
+```
+
+
 
 
 <html>
