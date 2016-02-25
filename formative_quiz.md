@@ -101,9 +101,9 @@ function isDigit(num) {
 </script>
 </head>
 <body>
-<form onsubmit="return validate(this)" method="get" action="http://was6.itk.ilstu.edu:9080/itk/EchoAll"><BR>
-Enter serial #: <INPUT TYPE="text" NAME="number" SIZE="20"> <input type="submit"> 
-</form>
+    <form onsubmit="return validate(this)" method="get" action="http://was6.itk.ilstu.edu:9080/itk/EchoAll"><BR>
+        Enter serial #: <INPUT TYPE="text" NAME="number" SIZE="20"> <input type="submit"> 
+    </form>
 </body>
 
 </html>
