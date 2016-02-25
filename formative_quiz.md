@@ -2,7 +2,7 @@
 
 ###Multiple Choice:
 
-[2 pts]1. If the three classes in the following inheritance hierarchy contain a calculateMaxSpeed method, which class defines the method that is called when the 2nd statement in the code that follows is executed?
+**1.** If the three classes in the following inheritance hierarchy contain a calculateMaxSpeed method, which class defines the method that is called when the 2nd statement in the code that follows is executed?
 
 * Object
     * Vehicle
