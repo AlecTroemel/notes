@@ -9,7 +9,7 @@ functions
 
 ```javascript
 
-// onSubmit function 
+
 // basic function, select random color
 function randomColor(){
     var allowed = "0369cf".split( '' ), s = "#";
@@ -19,6 +19,7 @@ function randomColor(){
     return s;
 }
 
+// onSubmit function 
 theForm.onsubmit = function() {
 
 }
