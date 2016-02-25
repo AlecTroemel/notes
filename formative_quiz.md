@@ -42,7 +42,7 @@ __d) Automobile__
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="./css/quiz.css">
+    <link rel="stylesheet" type="text/css" href="./css/quiz.css">
     </head>
     
     <body>
