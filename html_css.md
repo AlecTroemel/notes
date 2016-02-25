@@ -52,10 +52,20 @@
 <textarea rows="4" cols="50">Type your wonderfull paper here</textarea>
 ```
 
-##### text input 
+##### Button 
 ```html
-
+<input type="button" value="You cant see me!!" hidden="true">
 ```
+
+##### Reset Button 
+```html
+<input type="reset">
+```
+                </fieldset>
+                <input type="reset">
+                <input type="submit">
+
+
 <html>
 
     <body>
