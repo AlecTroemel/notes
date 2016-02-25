@@ -29,8 +29,8 @@
 
 ##### Radio Buttons  
 ```html
-<input TYPE="radio" NAME="foodChoice" VALUE="pizza"> Pizza<br>
-<input TYPE="radio" NAME="foodChoice" VALUE="hotdog"> Hotdog<br>
+<input TYPE="radio" NAME="foodChoice" VALUE="pizza"> Pizza <br>
+<input TYPE="radio" NAME="foodChoice" VALUE="hotdog"> Hotdog <br>
 ```
 
 ##### text input 
