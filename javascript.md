@@ -11,7 +11,6 @@ Prompt
     var name = prompt("Enter name", "John Deer");
 ```
     
-
 for loop 
 ```javascript
 for (var i = 1; i < numberOfScores; i++) {
