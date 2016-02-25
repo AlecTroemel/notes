@@ -184,8 +184,3 @@ public void TestLTZero() {
 **8.** In this question, you are to partially develop a WebApp that performs arithmetic computation (i.e., does +, -, *, and / operations). Assume that a CalculatorBean has already been developed and it supports the above 4 operations. Also, the controller class is given with all the necessary pieces as well. Your job is to write the view (index.xhtml) of the WebApp, which should resemble the screenshot given below. 
 
 Note: Much like how properties from a model/controller can be mapped to elements found in a view (e.g., number 1 is mapped to arg1), a method in a model/controller can also be mapped to an action found in a view. Thus, when an operation such as Add is clicked, a corresponding method can be called to handle the event.
-
-To help with this, check out the project CalcWebApp on the T: drive (which contains the aforementioned pieces).
-
-
-Download the index.xhtml file and place it on the CalcWebApp webapp (under Web Pages node).
