@@ -130,21 +130,22 @@ Explain the differences among the following function calls with the onClick even
 **6.** Given the following Address class, complete the method below to tell if a given address contains "College Ave" in its street name?
 ```java
 public class Address {
-  
-   private String street;
-   private String city;
-   private String state;
-   private String zip;
  
-      public Address () {
-      }
-
-      public Address (String street, String city, String state, String zip) {
-      this.street = street;
-      this.city = city;
-      this.state = state;
-      this.zip = zip;
-   }
+    private String street;
+    private String city;
+    private String state;
+    private String zip;
+ 
+    public Address () {
+    
+    }
+    
+    public Address (String street, String city, String state, String zip) {
+    this.street = street;
+    this.city = city;
+    this.state = state;
+    this.zip = zip;
+    }
  
    // gets and sets methods for each of the fields here
 }
