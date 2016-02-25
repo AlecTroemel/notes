@@ -4,6 +4,9 @@
 alert
 
 for loop 
+```javascript
+
+```
 
 functions 
 
