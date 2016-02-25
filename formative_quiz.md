@@ -122,8 +122,7 @@ Explain the differences among the following function calls with the onClick even
     2. What is passed to the function? __the button__
     3. How to access to the value of the textfield?__document.forms[0].myText.value__ or __param1.form.myText.value__
 2. onClick="doThis(this.form)"
-
-[2 pts] What is passed to the function? _______the form_____________________
+    2. What is passed to the function? __the form__
 
 [2 pts] How to access to the value of the textfield?____param1.myText.value____________________________
 
