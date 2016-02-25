@@ -8,10 +8,8 @@ for loop
 functions 
 
 ```javascript
-
-
 // basic function, select random color
-function randomColor(){
+function randomColor() {
     var allowed = "0369cf".split( '' ), s = "#";
     while ( s.length < 4 ) {
        s += allowed.splice( Math.floor( ( Math.random() * allowed.length ) ), 1 );
