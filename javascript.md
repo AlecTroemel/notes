@@ -3,7 +3,7 @@
 ### Basics
 alert
 ```javascript
-
+    Alert("message");
 ```
 
 for loop 
