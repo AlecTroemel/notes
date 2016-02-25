@@ -109,7 +109,7 @@ Enter serial #: <INPUT TYPE="text" NAME="number" SIZE="20"> <input type="submit"
 </html>
 ```
 
-[8 pts] 5. Consider the following code segment:
+**5.** Consider the following code segment:
 <form>
 <input type="text" name="myText">
 <input type="button" name="myButton" value="Click Me" 
