@@ -1,11 +1,57 @@
 # HTML
+
+### Head elements 
 ```html
-<html>
     <head>
         <link rel="stylesheet" type="text/css" href="./Semantic/semantic.min.css">
         <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
         <title>Alec Troemel: A Guy</title>
     </head>
+```
+
+### Forms 
+```html
+
+```
+
+##### text input 
+```html
+
+```
+
+##### text input 
+```html
+
+```
+
+##### text input 
+```html
+<form name="Name" method="get" action="http://was6.itk.ilstu.edu:9080/itk/EchoAll">
+    <fieldset>
+        ... form stuff here
+    </fieldset>
+    
+    <fieldset>
+        ... form stuff here
+    </fieldset>
+</form>
+```
+
+##### text input 
+```html
+
+```
+
+##### text input 
+```html
+
+```
+
+##### text input 
+```html
+
+```
+<html>
 
     <body>
         <form name="Name" method="get" action="http://was6.itk.ilstu.edu:9080/itk/EchoAll">
