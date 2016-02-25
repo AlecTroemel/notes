@@ -19,3 +19,9 @@ Separating JavaScript functionality from HTML content
     };
 </script> 
 ```
+
+### Working with forms 
+// get the form object from ID
+```javascript
+var theForm = document.getElementById("theForm");
+```
