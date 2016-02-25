@@ -144,3 +144,50 @@ function selectName() {
 }; 
 ```
 
+### Some Example Code
+```javascript 
+function validateEmail(emailString) { 
+    
+    // check if there are multiple at signs 
+    if ((emailString.split("@").length - 1) > 1) {
+        alert(emailString + "Incorrect: Email may not have more than 1 @ sign ");
+        return false;
+    }
+    
+    // check at positions
+    var atPosition = emailString.indexOf("@");
+    if (atPosition == -1) {
+        alert(emailString + "Incorrect: Email must have @ sign ");
+        return false;
+    }
+    else if (atPosition == 0) {
+        alert(emailString + "Incorrect: @ sign may not be a beginning ");    
+        return false;
+    }
+    else if (atPosition == emailString.length - 1) {
+        alert(emailString + "Incorrect: @ sign may not be a end ");    
+        return false;
+    }
+    
+    // check dot position after at sign
+    var afterAt = emailString.substr(atPosition + 1);
+    var dotPosition = afterAt.indexOf(".");
+    if (dotPosition == -1) {
+        alert(emailString + "Incorrect: Email must have domain name with . ");
+        return false;
+    }
+    else if (dotPosition == 0) {
+        alert(emailString + "Incorrect: . sign may not be directly after @ sign ");    
+        return false;
+    }
+    else if (dotPosition == afterAt.length - 1) {
+        alert(emailString + "Incorrect: . sign may not be a end ");    
+        return false;
+    }
+    
+    return true;
+}
+```
+
+
+
