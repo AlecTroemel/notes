@@ -150,13 +150,15 @@ public class Address {
    // gets and sets methods for each of the fields here
 }
         
-        // In some class:
-    public void printAddressWithCollegeAve(Address addrs[]) {
-        // TO-DO
-        for (int i = 0; i < addrs.length; i++)
-         if (addrs[i].getStreet().indexOf("College Avenue") != -1)
-             System.out.println(addrs[i]);
+// In some class:
+public void printAddressWithCollegeAve(Address addrs[]) {
+    // TO-DO
+    for (int i = 0; i < addrs.length; i++) {
+        if (addrs[i].getStreet().indexOf("College Avenue") != -1) {
+            System.out.println(addrs[i]);
+        }
     }
+}
 ```
 JUnit:
 
