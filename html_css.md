@@ -22,12 +22,12 @@
 </form>
 ```
 
-##### text input 
+##### Text Input 
 ```html
 <input type="text" name="catalog" />
 ```
 
-##### text input 
+##### Radio Buttons  
 ```html
 
 ```
