@@ -19,7 +19,7 @@ function randomColor() {
 
 // onSubmit function 
 theForm.onsubmit = function() {
-
+...
 }
 ```
 
