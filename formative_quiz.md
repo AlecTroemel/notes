@@ -120,7 +120,7 @@ function isDigit(num) {
 Explain the differences among the following function calls with the onClick event handler. Specifically, what is passed to the function and how does one access the value of the text field (in the doThis function) in each of the calls below? For functions that take a parameter, assume the name of the parameter is param1.
 1. onClick="doThis(this)"
     2. What is passed to the function? __the button__
-    3. How to access to the value of the textfield?__document.forms[0].myText.value_or __param1.form.myText.value__
+    3. How to access to the value of the textfield?__document.forms[0].myText.value__ or __param1.form.myText.value__
 
 (b)     onClick="doThis(this.form)"
 
