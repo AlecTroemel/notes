@@ -10,8 +10,6 @@
 ```
 
 ### Forms
-
-setting up Forms 
 ```html
 <form name="Name" method="get" action="http://was6.itk.ilstu.edu:9080/itk/EchoAll">
     <fieldset>
