@@ -55,9 +55,9 @@ __d) Automobile__
     </body>
 </html>
 ```
-JavaScript:
+### JavaScript:
 
-[10 pts] 4. Write a JavaScript validation function to make sure that the even characters of a serial number are digits. Submit if validated successfully and abort otherwise.
+**4.** Write a JavaScript validation function to make sure that the even characters of a serial number are digits. Submit if validated successfully and abort otherwise.
 
 <!DOCTYPE html>
 <html>
