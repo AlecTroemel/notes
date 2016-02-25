@@ -101,9 +101,11 @@
 
 ##### ID's
 ```html
+<style>
 #id {
 
 }
+</style>
 ```
 
 ##### Common Elements 
