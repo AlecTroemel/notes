@@ -38,6 +38,15 @@ function randomColor() {
 theForm.onsubmit = function() {
     ...
 }
+
+image.onmouseover = function() {
+    ...
+}
+
+image.onmouseover = function() {
+    ...
+}
+
 ```
 
 ### Unobtrusive Code 
