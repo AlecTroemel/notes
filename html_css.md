@@ -105,27 +105,25 @@
 ```
 
 ##### Common Elements 
-        
+```
+h {
+    background: url(images/boards.jpg) repeat-x;
+    background-image: url("./images/background_city.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: white;
 
-        #id {}
+    padding: 3%;
+    border: 5% 5% 5% 5%;
 
-        h {
-            background: url(images/boards.jpg) repeat-x;
-            background-image: url("./images/background_city.jpg");
-            background-repeat: no-repeat;
-            background-position: center;
-            background-attachment: fixed;
-            background-color: white;
+    width: auto;
+    height: auto;
 
-            padding: 3%;
-            border: 5% 5% 5% 5%;
-
-            width: auto;
-            height: auto;
-
-            color: #c1ffd6; /* of font */
-            font-weight: bold;
-            font-style: italic;
-            font-size: 50pt;
-            font-family: Arial Rounded MT Bold;
-        }  
+    color: #c1ffd6; /* of font */
+    font-weight: bold;
+    font-style: italic;
+    font-size: 50pt;
+    font-family: Arial Rounded MT Bold;
+}  
+```
