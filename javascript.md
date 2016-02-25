@@ -52,3 +52,29 @@ for (i = 2; i < theForm.elements.length - 1; i++) {
     }
 }
 ```
+
+### Dynamic creation of html elements 
+```javascript
+for (i = 0; i < names.length; i++) {
+    var temp = document.createElement("div");
+
+    var color = randomColor();
+    temp.style = "background-color:" + color;
+    temp.className = "name";
+
+    var header = document.createElement("h1");
+    var node = document.createTextNode(names[i]);
+    header.appendChild(node);         
+    temp.appendChild(header);
+
+
+    var element = document.getElementById("container");
+    element.appendChild(temp);
+    divsList.push(temp);
+    onTopIndex = i;
+    divsList[i].style.animation = "hide 1s forwards";
+    divsList[i].style.animationPlayState = "play";
+}
+```
+
+
