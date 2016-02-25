@@ -90,7 +90,6 @@ function selectName() {
     //alert(indexNum);
     var newTopIndex;
     for (i = 0; i < names.length; i++) {
-
         if(indexNum == i) {
             divsList[i].style.animation = "show 1s forwards";
             divsList[i].style.animationPlayState = "play";
