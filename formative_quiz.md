@@ -109,6 +109,7 @@ function isDigit(num) {
 ```
 
 **5.** Consider the following code segment:
+```html
 <form>
 <input type="text" name="myText">
 <input type="button" name="myButton" value="Click Me" 
