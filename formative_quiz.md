@@ -127,7 +127,7 @@ Explain the differences among the following function calls with the onClick even
 
 ###Java:
 
-[6 pts] 6. Given the following Address class, complete the method below to tell if a given address contains "College Ave" in its street name?
+**6.** Given the following Address class, complete the method below to tell if a given address contains "College Ave" in its street name?
 
 public class Address {
   
