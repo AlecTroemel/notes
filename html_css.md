@@ -61,6 +61,12 @@
 ```html
 <input type="reset">
 ```
+
+##### Submit Button 
+```html
+<input type="reset">
+```
+
                 </fieldset>
                 <input type="reset">
                 <input type="submit">
