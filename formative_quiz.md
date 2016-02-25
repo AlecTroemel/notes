@@ -59,6 +59,7 @@ __d) Automobile__
 
 **4.** Write a JavaScript validation function to make sure that the even characters of a serial number are digits. Submit if validated successfully and abort otherwise.
 
+```html
 <!DOCTYPE html>
 <html>
 <head><title>Quiz Q</title><h3>... even characters of a serial number are digits ... </h3>
@@ -106,7 +107,7 @@ Enter serial #: <INPUT TYPE="text" NAME="number" SIZE="20"> <input type="submit"
 </body>
 
 </html>
-
+```
 
 [8 pts] 5. Consider the following code segment:
 <form>
