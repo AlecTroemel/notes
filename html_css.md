@@ -105,8 +105,8 @@
 ```
 
 ##### Common Elements 
-```
-h {
+```html
+<style>
     background: url(images/boards.jpg) repeat-x;
     background-image: url("./images/background_city.jpg");
     background-repeat: no-repeat;
@@ -125,5 +125,6 @@ h {
     font-style: italic;
     font-size: 50pt;
     font-family: Arial Rounded MT Bold;
+</style>
 }  
 ```
