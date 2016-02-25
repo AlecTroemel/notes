@@ -47,9 +47,9 @@
 </select>
 ```
 
-##### text input 
+##### MultiLine Text Input 
 ```html
-
+<textarea rows="4" cols="50">Type your wonderfull paper here</textarea>
 ```
 
 ##### text input 
