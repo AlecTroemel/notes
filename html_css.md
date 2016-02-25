@@ -91,7 +91,7 @@
 
 # CSS
 ##### classes
-```CSS
+```html
 .class {
 
 }
