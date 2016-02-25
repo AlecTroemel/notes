@@ -39,7 +39,7 @@
 <input type="checkbox" name="box" value="dislike"> ... It could use some 
 ```
 
-##### text input 
+##### Select's 
 ```html
 
 ```
