@@ -91,14 +91,16 @@
 
 # CSS
 ##### classes
-```CSS
+```html
+<style>
 .class {
 
 }
+</style>
 ```
 
 ##### ID's
-```CSS
+```html
 #id {
 
 }
