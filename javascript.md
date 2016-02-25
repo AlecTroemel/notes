@@ -247,6 +247,7 @@ function computeHours() {
     alert(results); 
 }
 ```
+
 ```javascript 
 function validateEmail(emailString) { 
     
