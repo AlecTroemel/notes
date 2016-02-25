@@ -2,6 +2,9 @@
 
 ### Basics
 alert
+```javascript
+
+```
 
 for loop 
 ```javascript
