@@ -5,7 +5,7 @@ alert
 
 for loop 
 
-function 
+functions 
 
 
 
