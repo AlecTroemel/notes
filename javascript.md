@@ -11,6 +11,11 @@ Prompt
     var name = prompt("Enter name", "John Deer");
 ```
     
+Confirm 
+```javascript
+var boolean = confirm("You selected: " + string + ". Is this correct?");   
+```
+    
 For loop 
 ```javascript
 for (var i = 1; i < numberOfScores; i++) {
