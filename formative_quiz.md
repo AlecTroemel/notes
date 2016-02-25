@@ -17,7 +17,7 @@ __d) Automobile__
 
 **2.** T/F: Abstract class can only contain abstract methods, not non-abstract ones (i.e. methods with bodies).
 
-False. Unlike interfaces, abstract class can contain non-abstract methods.
+**False. Unlike interfaces, abstract class can contain non-abstract methods.**
 
 HTML/CSS:
 
