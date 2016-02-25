@@ -64,7 +64,7 @@
 
 ##### Submit Button 
 ```html
-<input type="reset">
+<input type="submit">
 ```
 
                 </fieldset>
