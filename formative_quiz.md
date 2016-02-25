@@ -38,9 +38,6 @@ __d) Automobile__
     a:hover   {color:#ff0000}
     a:active  {color:#ff0000}
 </style>
-```
-
-[2 pts] quiz.html 
 
 <!DOCTYPE html>
 <html>
@@ -58,7 +55,7 @@ __d) Automobile__
 </body>
 
 </html>
-
+```
 JavaScript:
 
 [10 pts] 4. Write a JavaScript validation function to make sure that the even characters of a serial number are digits. Submit if validated successfully and abort otherwise.
