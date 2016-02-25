@@ -33,9 +33,10 @@
 <input type="radio" name="foodChoice" value="hotdog"> Hotdog <br>
 ```
 
-##### text input 
+##### Checkboxes 
 ```html
-
+<input type="checkbox" name="box" value="like"> I like this!<br>
+<input type="checkbox" name="box" value="dislike"> ... It could use some 
 ```
 
 ##### text input 
@@ -56,14 +57,6 @@
 
     <body>
         <form name="Name" method="get" action="http://was6.itk.ilstu.edu:9080/itk/EchoAll">
-                <fieldset>
-                    <legend>Favorite Food:</legend>                   
-                    <input TYPE="radio" NAME="foodChoice" VALUE="pizza"> Pizza<br>
-                    <input TYPE="radio" NAME="foodChoice" VALUE="hotdog"> Hotdog<br>
-    
-                    <br> Selected Food
-                    <input type="text" name="catalog" />
-                </fieldset>
     
                 <fieldset>
                     <legend>Other Things:</legend>  
