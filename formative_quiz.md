@@ -98,7 +98,7 @@ function isDigit(num) {
     }
     return false;
 }
-</SCRIPT>
+</script>
 </head>
 <body>
 <form onsubmit="return validate(this)" method="get" action="http://was6.itk.ilstu.edu:9080/itk/EchoAll"><BR>
