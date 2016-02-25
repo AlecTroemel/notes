@@ -77,4 +77,31 @@ for (i = 0; i < names.length; i++) {
 }
 ```
 
+### on Click to select the name 
+```javascript
+var button = document.getElementById("button");
+function selectName() {
+    // pick a number that is not on top
+    var indexNum = Math.floor((Math.random() * names.length));  
+    while (indexNum == onTopIndex) {
+        indexNum = Math.floor((Math.random() * names.length)); 
+    }
+
+    //alert(indexNum);
+    var newTopIndex;
+    for (i = 0; i < names.length; i++) {
+
+        if(indexNum == i) {
+            divsList[i].style.animation = "show 1s forwards";
+            divsList[i].style.animationPlayState = "play";
+            newTopIndex = i;
+        }
+        else if (i == onTopIndex) {
+            divsList[i].style.animation = "hide 1s forwards";
+            divsList[i].style.animationPlayState = "play";
+        }
+    }
+    onTopIndex = newTopIndex;
+}; 
+```
 
