@@ -21,10 +21,8 @@ __d) Automobile__
 
 ###HTML/CSS:
 
-[6 pts] 3. Write a CSS doc to style each "important" class to yellow and each anchor to bold and italics. Now, write an HTML doc to test the CSS doc. 
-
-[4 pts] quiz.css
-
+**3. **Write a CSS doc to style each "important" class to yellow and each anchor to bold and italics. Now, write an HTML doc to test the CSS doc. 
+```html
 .important {
  background-color: yellow;
 }
@@ -38,6 +36,7 @@ a:link  {color:blue; text-decoration:none;}
 a:visited {color:#000000}
 a:hover   {color:#ff0000}
 a:active  {color:#ff0000}
+```
 
 [2 pts] quiz.html 
 
