@@ -13,11 +13,7 @@
 MotorVehicle car = new Automobile();
 car. calculateMaxSpeed();
 ```
- 
-a)       Object
-b)       Vehicle
-c)       MotorVehicle
-d)       Automobile
+__d) Automobile__
 
 [2 pts] 2. T/F: Abstract class can only contain abstract methods, not non-abstract ones (i.e. methods with bodies).
 
