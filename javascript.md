@@ -145,6 +145,26 @@ function selectName() {
 ```
 
 ### Some Example Code
+```javascript
+function myFunc() {
+    var firstname = prompt("Please enter your first name", "Pizza");
+
+    if (firstname == "" || firstname == null ) {
+        alert("you didn't say anything...");  
+    }
+    else {
+        var lastname = prompt("Now your last name", "Hotdog");    
+
+        if (lastname == "" || lastname == null) {
+            alert("you didn't say anything...");  
+        }
+        else {
+            alert("Hello " +lastname + ", " + firstname + "! Welcome to ITK353.");
+        }            
+    }
+}
+```
+
 ```javascript 
 function validateEmail(emailString) { 
     
