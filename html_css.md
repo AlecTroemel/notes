@@ -11,21 +11,6 @@
 
 ### Forms 
 ```html
-
-```
-
-##### text input 
-```html
-
-```
-
-##### text input 
-```html
-
-```
-
-##### text input 
-```html
 <form name="Name" method="get" action="http://was6.itk.ilstu.edu:9080/itk/EchoAll">
     <fieldset>
         ... form stuff here
@@ -35,6 +20,21 @@
         ... form stuff here
     </fieldset>
 </form>
+```
+
+##### text input 
+```html
+
+```
+
+##### text input 
+```html
+
+```
+
+##### text input 
+```html
+
 ```
 
 ##### text input 
