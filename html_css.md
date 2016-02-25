@@ -41,7 +41,10 @@
 
 ##### Select's 
 ```html
-
+<select>
+    <option>pizza</option>
+    <option>hotdog</option>
+</select>
 ```
 
 ##### text input 
