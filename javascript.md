@@ -7,7 +7,13 @@ for loop
 
 functions 
 
+```javascript
 
+// onSubmit function 
+theForm.onsubmit = function() {
+
+}
+```
 
 ### Unobtrusive Code 
 Separating JavaScript functionality from HTML content  
